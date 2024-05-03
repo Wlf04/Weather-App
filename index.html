@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sun.svg">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg></button>   
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="sun.svg" alt=""  class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New york</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="water.svg">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="humidity">Humidity</p>
+                    </div>
+                    <div class="col">
+                        <img src="wind.svg">
+                        <div>
+                            <p class="wind">50km/h</p>
+                            <p class="wind">Wind Speed</p>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
